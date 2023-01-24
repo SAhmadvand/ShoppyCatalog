@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoppy.CatalogService.Presentation.Api", "Shoppy.CatalogService.Presentation.Api\Shoppy.CatalogService.Presentation.Api.csproj", "{F8DFD754-7143-46B7-B9E7-6BE355D29700}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppy.Catalog.Resources", "Shoppy.Catalog.Resources\Shoppy.Catalog.Resources.csproj", "{AFAC34EC-CE5A-4BDF-887B-EB581C745D7D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoppy.CatalogService.Domain", "Shoppy.CatalogService.Domain\Shoppy.CatalogService.Domain.csproj", "{7DCA0A60-A0AF-4C23-AB64-37A5DAC01A78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppy.Catalog.Domain", "Shoppy.Catalog.Domain\Shoppy.Catalog.Domain.csproj", "{D825348D-3882-4C0F-83F6-6AA308D3C927}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoppy.CatalogService.Resources", "Shoppy.CatalogService.Resources\Shoppy.CatalogService.Resources.csproj", "{FF1F5CAA-1102-4C9B-8D28-D5D6B3D135D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppy.Catalog.Application", "Shoppy.Catalog.Application\Shoppy.Catalog.Application.csproj", "{E285EF21-927C-4BC6-8245-B36E678B95C1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoppy.CatalogService.Application", "Shoppy.CatalogService.Application\Shoppy.CatalogService.Application.csproj", "{A72E2C50-C37B-4353-A238-EBF1C1B30A46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppy.Catalog.Persistence.EF", "Shoppy.Catalog.Persistence.EF\Shoppy.Catalog.Persistence.EF.csproj", "{20168E74-A9B8-456D-B2D7-FED601D02788}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shoppy.CatalogService.Persistence.EF", "Shoppy.CatalogService.Persistence.EF\Shoppy.CatalogService.Persistence.EF.csproj", "{0D38B622-6039-49FD-878F-3896109E1D73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppy.Catalog.Presentation.Api", "Shoppy.Catalog.Presentation.Api\Shoppy.Catalog.Presentation.Api.csproj", "{74CA3BF1-6203-494D-9E0B-FAB43E90B301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,26 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F8DFD754-7143-46B7-B9E7-6BE355D29700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8DFD754-7143-46B7-B9E7-6BE355D29700}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8DFD754-7143-46B7-B9E7-6BE355D29700}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8DFD754-7143-46B7-B9E7-6BE355D29700}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DCA0A60-A0AF-4C23-AB64-37A5DAC01A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DCA0A60-A0AF-4C23-AB64-37A5DAC01A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DCA0A60-A0AF-4C23-AB64-37A5DAC01A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DCA0A60-A0AF-4C23-AB64-37A5DAC01A78}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF1F5CAA-1102-4C9B-8D28-D5D6B3D135D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF1F5CAA-1102-4C9B-8D28-D5D6B3D135D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF1F5CAA-1102-4C9B-8D28-D5D6B3D135D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF1F5CAA-1102-4C9B-8D28-D5D6B3D135D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A72E2C50-C37B-4353-A238-EBF1C1B30A46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A72E2C50-C37B-4353-A238-EBF1C1B30A46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A72E2C50-C37B-4353-A238-EBF1C1B30A46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A72E2C50-C37B-4353-A238-EBF1C1B30A46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D38B622-6039-49FD-878F-3896109E1D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D38B622-6039-49FD-878F-3896109E1D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D38B622-6039-49FD-878F-3896109E1D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D38B622-6039-49FD-878F-3896109E1D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAC34EC-CE5A-4BDF-887B-EB581C745D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAC34EC-CE5A-4BDF-887B-EB581C745D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAC34EC-CE5A-4BDF-887B-EB581C745D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAC34EC-CE5A-4BDF-887B-EB581C745D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D825348D-3882-4C0F-83F6-6AA308D3C927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D825348D-3882-4C0F-83F6-6AA308D3C927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D825348D-3882-4C0F-83F6-6AA308D3C927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D825348D-3882-4C0F-83F6-6AA308D3C927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E285EF21-927C-4BC6-8245-B36E678B95C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E285EF21-927C-4BC6-8245-B36E678B95C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E285EF21-927C-4BC6-8245-B36E678B95C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E285EF21-927C-4BC6-8245-B36E678B95C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20168E74-A9B8-456D-B2D7-FED601D02788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20168E74-A9B8-456D-B2D7-FED601D02788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20168E74-A9B8-456D-B2D7-FED601D02788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20168E74-A9B8-456D-B2D7-FED601D02788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CA3BF1-6203-494D-9E0B-FAB43E90B301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CA3BF1-6203-494D-9E0B-FAB43E90B301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CA3BF1-6203-494D-9E0B-FAB43E90B301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CA3BF1-6203-494D-9E0B-FAB43E90B301}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

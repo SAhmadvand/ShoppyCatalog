@@ -20,4 +20,9 @@
     <PackageReference Include="Shoppy.Domain" Version="1.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Brands\Events" />
+    <Folder Include="Brands\Services" />
+  </ItemGroup>
+
 </Project>
