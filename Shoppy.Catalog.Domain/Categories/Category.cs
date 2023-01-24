@@ -15,7 +15,7 @@ public partial class Category : AggregateRoot<long>
         Name = name;
         IsAssignableToProduct = isAssignableToProduct;
 
-        State = CategoryState.Draft;
+        VisibilityVisibilityState = CategoryVisibilityState.Draft;
 
         RaiseEvent(new CategoryCreated(this));
     }
@@ -26,7 +26,7 @@ public partial class Category : AggregateRoot<long>
     public string Code { get; private set; }
     public string Name { get; private set; }
     public bool IsAssignableToProduct { get; private set; }
-    public CategoryState State { get; private set; }
+    public CategoryVisibilityState VisibilityVisibilityState { get; private set; }
     #endregion
 
     #region Methods
@@ -40,14 +40,14 @@ public partial class Category : AggregateRoot<long>
     {
         await validator.ValidateAsync(Id, cancellationToken);
         /// TODO: add publish category logic
-        State = CategoryState.Publish;
+        VisibilityVisibilityState = CategoryVisibilityState.Publish;
         RaiseEvent(new CategoryStateChanged(this));
     }
     public async Task UnPublishAsync(ICategoryUnPublishValidator validator, CancellationToken cancellationToken = default)
     {
         await validator.ValidateAsync(Id, cancellationToken);
         /// TODO: add unPublish category logic
-        State = CategoryState.UnPublish;
+        VisibilityVisibilityState = CategoryVisibilityState.UnPublish;
         RaiseEvent(new CategoryStateChanged(this));
     }
     #endregion

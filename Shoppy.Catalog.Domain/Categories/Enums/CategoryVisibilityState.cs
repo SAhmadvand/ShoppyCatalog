@@ -1,6 +1,6 @@
 namespace Shoppy.Catalog.Domain.Categories.Enums;
 
-public enum CategoryState
+public enum CategoryVisibilityState
 {
     Draft,
     Publish,
